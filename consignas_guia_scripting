@@ -1,0 +1,36 @@
+
+Documentación a Entregar
+
+Se deberá subir a esta actividad un archivo comprimido (g z,z ip) que contenga un archivo por cada script solicitado.
+Además del código del script cada archivo deberá contener la siguiente documentación:
+
+    Autores: Comentario con los datos de los autores del script.
+    Fecha: Fecha de realización y versión.
+    Descripcion: Enunciado de lo que realiza el script.
+    Acciones: en cada acción que realice el scrit se deberá documentar que acción realiza con comentarios oportunamente agregados entre lineas del código.
+
+Resolver los siguientes problemas utilizando programación de scripts para el shell Bash:
+
+
+1) Escribir un script que genere un menu interactivo donde el usuario podrá seleccionar mediante un número las diferentes opciones del mismo. Las opciones del menú serán ejecutar los siguientes scripts del práctico.
+El mismo deberá capturar la opción elegida por el usuario, lanzar el script correspondiente, mostrar los resultados, realizar una pausa o esperar ingreso de tecla y nuevamente mostrar opciones del menú. 
+Incluir ademas una opción para terminar o salir.
+
+
+2) Escribir un script que muestre por pantalla informacion del sistema donde se ejecuta. El informe debe incluir la siguiente información, delimitada por titulos descriptivos.-
+
+Fecha del reporte. 
+Version del equipo y kernel 
+version del S.O.
+Hardware: Procesador, memoria y perifericos. 
+Espacio de disco y particiones montadas 
+
+
+3) Escribir un script que se ejecute en segundo plano y verifique continuamente, cada cierto tiempo, la conectividad con un determinado host mediante el comando ping. Tanto el host como el tiempo entre verificación deberan ser ingresados por el usuario.
+El script debera generar un archivo llamado ping-<host> con informacion resultante. hora,fecha, host y si se realizo la conexion.-
+
+4)Escribir un script que busque de manera recursiva en un directorio ingresado por el usuario todos los archivos con una determinada extensión, tambien ingresada. El script deberá verificar que sea un directorio válido, exista y generar un archivo con el listado de los archivos encontrados con su ruta completa o absoluta.El archivo generado debera llamarse de la siguiente manera: archivos-<extension>en<directorioBusqueda>
+
+
+5) Escribir un script que reciba por entrada estandar un nombre de proceso (comando o script) y determine si dicho proceso se encuentra en ejecución, mostrando informacion detallada sobre el mismo a partir de informacion almacenada en el directorio proc.
+ademas ofrecer la posibilidad de cerrar el proceso (matarlo)
